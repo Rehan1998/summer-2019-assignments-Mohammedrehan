@@ -1,0 +1,21 @@
+#container {
+    width: 700px"
+    height: 400px;
+    background-color: blanchedalmond;
+}
+#header {
+    width: 500px;
+    height: 100px;
+    background-color: orange;
+    
+}
+#main {
+     width: 500px;
+    height: 100px;
+    background-color: floralwhite;
+}
+#footer {
+     width: 500px;
+    height: 100px;
+    background-color: green;
+}
