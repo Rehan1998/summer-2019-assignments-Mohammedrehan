@@ -1,7 +1,13 @@
+body {
+    background-color: palegoldenrod;
+    background-image: url(../images/bg.jpg);
+    background-size: cover;
+    
+}
+
 header {
 
     width: 700px;
-    height: 100px;
     border: 1px black dotted;
     margin-left: auto;
     margin-right: auto;
@@ -10,19 +16,55 @@ header {
 
 main {
     width: 700px;
-    height: 500px;
     border: 1px black dotted;
     margin-left: auto;
     margin-right: auto;
-
-
 }
 
 footer {
     width: 700px;
-    height: 100px;
     border: 1px black dotted;
     margin:  0 auto;
     
-
 }
+
+h1 {
+    font-size: 100px;
+    font-family: cursive;
+    color: darkgrey;
+    text-align: center;
+}
+
+p{ 
+    font-size: 36px;
+    font-family: "Ariel", sans-serif;
+    color: darkblue;
+}
+a:link {
+    color: pink;
+}
+
+a:visited {
+    color: fuchsia;
+}
+a:hover {
+    color: red;
+}
+a:active {
+    color: yellow;
+}
+a {
+    font-size: 36px;
+    font-family: "Ariel", sans-serif;
+    color: blue;
+}
+
+li{
+    font-size: 36px;
+    font-family: "Arial", sans-serif;
+    color: darkblue;
+}
+
+
+
+    
