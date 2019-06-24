@@ -1,14 +1,15 @@
+/* Main Style */
 body {
-    background-color: palegoldenrod;
+    background-color: #000;
     background-image: url(../images/bg.jpg);
     background-size: cover;
-    
+
 }
 
 header {
 
     width: 700px;
-    border: 1px black dotted;
+    border: 1px black none;
     margin-left: auto;
     margin-right: auto;
 
@@ -16,54 +17,92 @@ header {
 
 main {
     width: 700px;
-    border: 1px black dotted;
+    border: 1px black none;
     margin-left: auto;
     margin-right: auto;
+    text-align: center;
 }
 
 footer {
     width: 700px;
-    border: 1px black dotted;
-    margin:  0 auto;
-    
+    border: 1px black none;
+    margin: 0 auto;
+    background-color: antiquewhite;
+
 }
 
+/* Text Style START*/
 h1 {
-    font-size: 100px;
+    font-size: 80px;
     font-family: cursive;
-    color: darkgrey;
+    color: darkkhaki;
     text-align: center;
 }
 
-p{ 
+  p, li, a{
     font-size: 36px;
     font-family: "Ariel", sans-serif;
-    color: darkblue;
-}
-a:link {
-    color: pink;
+    color: darkgreen;
+    text-decoration: underline;
+    
+
 }
 
-a:visited {
-    color: fuchsia;
+
+li {
+    border: solid #00ffeb 1px;
+    margin-right: 1px;
+    display: inline;
+    padding: 10px;
+    border-radius: 5%;
+    
 }
-a:hover {
-    color: red;
-}
-a:active {
-    color: yellow;
-}
-a {
-    font-size: 36px;
-    font-family: "Ariel", sans-serif;
+
+a:link {
     color: blue;
 }
 
-li{
-    font-size: 36px;
-    font-family: "Arial", sans-serif;
-    color: darkblue;
+a:visited {
+    color: green;
 }
+
+a:hover {
+    color: black;
+}
+
+a:active {
+    color: yellow;
+}
+/* Text Style END*/
+
+/* Image starts*/
+
+#intro-image {
+    text-align: center;
+}
+
+#intro-image img {
+width: 500px;
+border-radius: 200%;
+opacity: 1;
+}
+
+
+#about-me p {
+text-decoration: none;
+color: cornflowerblue;
+}
+
+#about-me h2, h3, h4{
+font-size: 50px;
+font-style: oblique;
+color:darkgrey; 
+}
+
+nav {
+    text-align: center;
+
+
 
 
 
