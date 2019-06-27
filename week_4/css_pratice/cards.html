@@ -1,0 +1,107 @@
+<!doctype html>
+
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+
+    <title>CSS Practice</title>
+
+    <style>
+            .card {
+                width: 300px;
+                height: 445px;
+                border: 1px black solid;
+                border-radius: 20px;
+                position: absolute;
+                margin-top: 50px;
+                }   
+                
+           .card > p {
+               font-family: "Arial", sans-serif;
+               font-size: 48px;
+                margin-block-start: 0;
+                margin-block-endt: 0;
+                margin-block-start: 0;
+                margin-block-end: 0;
+                margin-left: 20px;
+                margin-top: 15px;
+        }
+        
+        #first {
+            left: 10px;
+            top: 10px;
+            background-color: beige;
+        }
+            
+        #second {
+            left: 80px;
+            top: 80px;
+            background-color: cyan;
+        }
+            
+        #third {
+            top: 150px;
+            left: 150px;
+            background-color: pink;
+        }
+        
+        #fourth {
+            top: 220px;
+            left: 220px;
+            background-color:lightgreen;
+        }
+        
+        #fifth { 
+            top: 290px;
+            left: 290px;
+            background-color: azure;
+        } 
+            
+        .red { 
+            color: red;
+        }
+        
+        .black {
+            color: black;
+        }
+        
+    </style>
+
+</head>
+
+<body>
+
+    <div id="hand">
+        <h1> This is just for practice.</h1>
+        <div class="card red" id="first">
+            <p>A</p>
+            <img src="clubs.svg" />
+        </div>
+
+        <div class="card red" id="second">
+            <p>7</p>
+             <img src="diamonds.svg" />
+        </div>
+
+        <div class="card black" id="third">
+            <p>A</p>
+             <img src="diamonds.svg" />
+        </div>
+
+        <div class="card red" id="fourth">
+            <p>A</p>
+             <img src="spade.svg" />
+        </div>
+
+        <div class="card black" id="fifth">
+            <p>9</p>
+             <img src="clubs.svg" />
+        </div>
+
+    </div>
+
+
+</body>
+
+</html>

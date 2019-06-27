@@ -8,69 +8,73 @@
     <title>CSS Practice</title>
 
     <style>
-
-        * {}
-        body {
-            background-color: #8e44ad;
+        
+       body {
+           background-image: url("star.jpg");
+           background-size: cover;
+           border: solid red 1px;
         }
-       
-        body div main p {
-            text-decoration: underline;
-            color: cyan;
+        
+        #playground {
+            width: 600px;
+            height: 600px;
+            border: solid black 5px;
+            background-color: beige;
+            margin: 0 auto;
+            box-sizing: border-box;
         } 
-        
-       #bolded  {
-            font-weight: bold;    
+       
+        #green {
+           border: 5px solid green;
+           background-color: lightgreen;
+           border-radius: 5px;
+           width: 200px;
+           height: 200px;
+           position: absolute;
+           top: 200px;
+           left: px;
+           right: 612px;
+            z-index: 3;
+           
         }
         
-        #italicized {
-            font-style: italic;
+        #blue {
+            border: 5px solid blue;
+           background-color: lightblue;
+           border-radius: 5px;
+           width: 200px;
+           height: 200px;
+           position: absolute;
+           top: 280px;
+           left: px;
+           right: 712px;
+            z-index: 2;
+            
         }
         
-      .odd {
-            text-decoration: underline;
+        #red {
+        border: 5px solid red;
+           background-color: pink;
+           border-radius: 5px;
+           width: 200px;
+           height: 200px;
+           position: fixed;
+           top: 150px;
+           left: 725px;
+           right: px;
+            z-index: 5;
+            
         }
+        
     </style>
-
-
+    
 </head>
 
 <body>
-    <div id="container">
-        <header>
-            <h1>Header</h1>
-            <p>This is the <span id="bolded">header</span> section.</p>
-        </header>
-        
-        <main>
-        <h1>Header</h1>
-        <p>This is the main section.</p>
-            
-            <ul>
-                <li class="odd">Css</li>
-                <li>java</li>
-                <li class="odd">ruby</li>
-                <li>python</li>
-                <li class="odd">c++</li>
-            
-            
-            </ul>
-        </main>
-        
-        <footer>
-        <h1>Header</h1>
-        <p>This is the <span id"italicized">footer</span> section.</p>
-        </footer>
-        
-    </div>
-
-    <div>
-    
-    </div>
-
-    <div></div>
-
-
+    <div id="playground"></div>
+    <div id="green"> </div>
+    <div id="blue"> </div>
+    <div id="red"> </div>
 </body>
 
 </html>
