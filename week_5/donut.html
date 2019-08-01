@@ -1,0 +1,77 @@
+<!doctype html>
+
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+
+    <title>donut</title>
+
+   
+    <style>
+            #donut {
+                display: grid;
+                border-radius: 50%;
+                grid-template-columns: 200px 200px 200px;
+                grid-template-rows: 200px 200px 200px;
+              
+        }
+        
+        #donut > div {
+           background-color: magenta;
+            font-size: 0;
+            color: magenta;
+        }
+        
+        #five {
+           grid-column-start: 3;
+            grid-column-end: 4;
+        }
+        
+        #first {
+            border-radius: 100% 0 0 0;
+            color: white !important;
+        }
+        
+        #third {
+            border-radius: 0 100% 0 0;
+        }
+        
+        #sixth {
+            border-radius: 0 0 0 100% ;
+        }
+       
+        #eighth {
+            border-radius: 0 0 100% 0;
+        }
+        
+        #hole {
+            border-radius: 50%;
+            background-color: aqua !important;
+        }
+    </style>
+
+
+</head>
+
+<body>
+    
+    <div id="donut" >
+        
+        <div id="first">1</div>
+        <div>2</div>
+        <div id="third">3</div>
+        <div>4</div>
+        <div id="hole">hole</div>
+        <div id="five">5</div>
+        <div id="sixth">6</div>
+        <div>7</div>
+        <div id="eighth">8</div>
+    
+    </div>
+
+   
+
+</body>
+
+</html>

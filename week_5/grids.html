@@ -1,0 +1,56 @@
+<!doctype html>
+
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+
+    <title>Grids</title>
+
+   
+    <style>
+            #container {
+                display: grid;
+                border: 2px solid black;
+                grid-template-columns: 1fr 1fr 1fr 1fr .50fr;
+        }
+        
+        #container > div {
+            font-size: 72px;
+            border: solid 1px red;
+        }
+        
+        #special {
+            grid-column-start: 3;
+            grid-column-end: 5;
+        }
+        
+        #first {
+            grid-column-start: 1;
+            grid-column-end: 3;
+        }
+       
+    </style>
+
+
+</head>
+
+<body>
+    
+    <div id="container" >
+        
+        <div id="first">1</div>
+        <div>2</div>
+        <div>3</div>
+        <div>4</div>
+        <div>5</div>
+        <div>6</div>
+        <div id="special">7</div>
+    
+    </div>
+
+   
+
+</body>
+
+</html>

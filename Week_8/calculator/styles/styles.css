@@ -1,0 +1,23 @@
+body  {
+    background-color: white;
+    color: black;
+
+}
+
+input, button {
+    width: 200px;
+    height: 50px;
+    border-radius: 36px;
+    padding: 8px;
+    font-family: monospace;
+    font-size: 36px;
+}
+
+button {
+    width: 250px;
+    height: 100px;
+}
+
+button:hover {
+    background-color: lightgrey;
+}
